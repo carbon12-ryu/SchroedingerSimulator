@@ -46,7 +46,16 @@ class MainControll():
       isShow=False
       )
     
-    psi = self.CrankNicolson.main(
+    # psi = self.CrankNicolson.main(
+    #   x_array=x_array,
+    #   t_array=t_array,
+    #   delta_x=calc_setting["delta_x"],
+    #   delta_t=calc_setting["delta_t"],
+    #   V_array=V,
+    #   psi_init_array=psi_init
+    # )
+    
+    psi = self.CrankNicolson.main_sparse(
       x_array=x_array,
       t_array=t_array,
       delta_x=calc_setting["delta_x"],

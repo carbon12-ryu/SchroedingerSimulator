@@ -1,11 +1,11 @@
 {
   "calc_setting":{
-    "x_start":-0.8e-8,
-    "x_end":2e-8,
-    "delta_x":8e-12,
+    "x_start":-2e-8,
+    "x_end":6e-8,
+    "delta_x":1e-11,
     "t_start":0,
-    "t_end":3e-11,
-    "delta_t":1e-14
+    "t_end":1e-10,
+    "delta_t":2e-14
   },
   "init_psi":{
     "type":"gauss",
@@ -35,6 +35,6 @@
   ],
   "graph":{
     "init_name":"init.png",
-    "ani_name":"animation_res_tunnel2.gif"
+    "ani_name":"animation_res_tunnel3.gif"
   }
 }
